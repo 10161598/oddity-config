@@ -16,5 +16,5 @@ eureka:
     # lease-expiration-duration-in-seconds: 2 # Eureka 注册中心（服务端）在收到客户端心跳之后，等待下一次心跳的超时时间，如果在这个时间内没有收到下次心跳，则移除该客户端。（默认90秒）
     # 自定义Eureka元数据
     metadata-map:
-      cluster: aaa
-      region: bbb
+      cluster: 123
+      region: 321
